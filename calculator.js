@@ -7,6 +7,6 @@ function clearInput(y) {
 }
 
 function calculateResult() {
-	var result eval(document.getElementById('inputwindow').value);
+	var result = eval(document.getElementById('inputwindow').value);
 	document.getElementById('inputwindow').value = result;
 }
